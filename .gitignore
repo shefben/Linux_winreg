@@ -1,0 +1,33 @@
+# Build directories
+build/
+*.o
+*.a
+*.so
+*.dylib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+# Note: Top-level Makefile is tracked (handwritten), but CMake-generated ones in build/ are not
+
+# Test executables
+test_registry
+*.exe
+
+# Registry database
+.winreg/
+*.db
+*.db-journal
+
+# Editor backups
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
